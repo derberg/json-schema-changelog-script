@@ -13,6 +13,7 @@
   },
   "author": "Lukasz Gornicki <lpgornicki@gmail.com>",
   "license": "MIT",
+  "version": "0.0.1",
   "bugs": {
     "url": "https://github.com/derberg/json-schema-changelog-script/issues"
   },

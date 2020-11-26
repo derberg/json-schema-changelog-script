@@ -4,6 +4,12 @@ Purpose of this project is to have a script that can get a list of changes done 
 
 So far script is hardcoded for this specific use case for JSON Schema. I cannot belive someone else would need it really.
 
+## What It Produces?
+
+It produces two files, `index.html` and `excluded.html`. The first one contains the list of commits that are good candidates for review for the changelog. The second one contains commits that were excluded from review.
+
+![](sample.png)
+
 ## Usage
 
 ### Requirements
