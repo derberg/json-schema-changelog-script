@@ -1,0 +1,31 @@
+{
+  "name": "json-schema-changelog-script",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "lint": "eslint --max-warnings 0 .",
+    "lint-fix": "eslint --fix .",
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derberg/json-schema-changelog-script.git"
+  },
+  "author": "Lukasz Gornicki <lpgornicki@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derberg/json-schema-changelog-script/issues"
+  },
+  "homepage": "https://github.com/derberg/json-schema-changelog-script#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
+  },
+  "dependencies": {
+    "@octokit/core": "^3.2.1",
+    "@octokit/plugin-paginate-rest": "^2.6.0",
+    "@octokit/rest": "^18.0.9",
+    "node-json2html": "^1.4.0"
+  }
+}
